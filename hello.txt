@@ -10,3 +10,4 @@ hello git master tes
 hello git hot-fix test
 
 更新
+再次更新 by git-clone 
