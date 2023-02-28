@@ -668,7 +668,7 @@ Resolving deltas: 100% (4/4), done.
 
 项目 >> setting  >> collaborators  >> 添加合作
 
-![image-20230228204141394](C:\Users\34912\Desktop\gitee-study\git-demo\imgs\gitee学习.md)
+![image-20230228204141394](C:\Users\34912\Desktop\gitee-study\git-demo\imgs\gitee学习.png)
 
 
 
