@@ -1,4 +1,4 @@
-## Git
+## 0Git
 
 是一个免费的开源的分布式版本控制系统，
 
@@ -675,3 +675,71 @@ Resolving deltas: 100% (4/4), done.
 #### 3.2跨团队合作
 
 搜索别人的项目>> fork 别人的项目
+
+
+
+修改之后请求合并代码
+
+![image-20230301201925607](C:\Users\34912\Desktop\gitee-study\git-demo\imgs\image-20230301201925607.png)
+
+
+
+不懂详情请看25级[25_尚硅谷_Git_GitHub_跨团队协作_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1vy4y1s7k6/?p=25&spm_id_from=pageDriver&vd_source=47fac834feccf2c84a782019aa120b81)
+
+
+
+#### 3.3 SSH免密登录
+
+1. 添加ssh免密登录
+
+> ssh-keygen -t rsa -C 2849569455@qq.com 
+>
+> -t rsa 加密方式
+>
+> -C 加密对象
+
+```
+
+34912@DESKTOP-E357TIF MINGW64 ~/Desktop/gitee-study/git-demo (master)
+$ ssh-keygen -t rsa -C 2849569455@qq.com
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/34912/.ssh/id_rsa):
+Created directory '/c/Users/34912/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/34912/.ssh/id_rsa
+Your public key has been saved in /c/Users/34912/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:iOqDczcxudWLjA7xZentzwvxMG5tuvOKmUZ7wf7/fNw 2849569455@qq.com
+The key's randomart image is:
++---[RSA 3072]----+
+|                 |
+|                 |
+|                 |
+|     . o         |
+|  . ..=oS        |
+|   +++oo+*       |
+| .o .O.+=o+    ..|
+|o.o.= =*==   .  E|
+| o.+.o+.=B*o..o. |
++----[SHA256]-----+
+
+
+```
+
+2. 查看加密密钥
+
+> C:\Users\34912\.ssh 
+>
+> 用户下的.ssh 复制里面的id_rsa.pub
+
+
+
+
+
+3. 在GitHub添加免密登录
+
+![image-20230301203610736](C:\Users\34912\Desktop\gitee-study\git-demo\imgs\image-20230301203610736.png)
+
+
+
