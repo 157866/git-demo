@@ -743,3 +743,111 @@ The key's randomart image is:
 
 
 
+> 免密登录
+>
+> git push git@github.com:157866/git-demo.git master
+>
+> git push ssh免密链接
+
+<img src="C:\Users\34912\Desktop\gitee-study\git-demo\imgs\image-20230301205024236.png" alt="image-20230301205024236" style="zoom:70%;" />
+
+
+
+```
+
+34912@DESKTOP-E357TIF MINGW64 ~/Desktop/gitee-study/git-demo (master)
+$ git push git@github.com:157866/git-demo.git master
+The authenticity of host 'github.com (127.0.0.1)' can't be established.
+ECDSA key fingerprint is SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ECDSA) to the list of known hosts.
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 255.71 KiB | 918.00 KiB/s, done.
+Total 8 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 2 local objects.
+To github.com:157866/git-demo.git
+   6d578c4..cf1407f  master -> master
+
+```
+
+
+
+### IDEA 集成Git
+
+
+
+#### 配置Git忽略文件
+
+> 为什么要忽略这些文件？ 
+>
+> ​		与项目的实际功能无关，不参与项目的运行。把它忽略可以屏蔽掉IDEA中的差异
+
+
+
+> 怎么忽略？
+>
+> ​		创建忽略文件规则  XXXX.ignore(前缀随便取，建议是git.ignore)
+
+>  git.ignore配置文件
+>
+> 配置路径C:/Users/34912/git.ignore
+
+```
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+hs_err_pid*
+
+.classpath
+.project
+.settings
+target
+.idea
+*.iml
+```
+
+
+
+**使用配置**
+
+> 路径C:/Users/34912/.gitconfig
+
+```
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = 157866
+	email = 2849569455@qq.com
+[core]
+	excludesfile = C:/Users/34912/git.ignore
+
+```
+
+
+
+#### 定位Git程序
+
+![image-20230301211248355](C:\Users\34912\Desktop\gitee-study\git-demo\imgs\image-20230301211248355.png)
