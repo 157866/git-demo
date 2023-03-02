@@ -851,3 +851,73 @@ target
 #### 定位Git程序
 
 ![image-20230301211248355](C:\Users\34912\Desktop\gitee-study\git-demo\imgs\image-20230301211248355.png)
+
+
+
+使用Git管理IDEA里面的项目
+
+
+
+![image-20230302111307656](C:\Users\34912\Desktop\gitee-study\git-demo\imgs\image-20230302111307656.png)
+
+
+
+> 如何通过IDEA查看版本
+
+![image-20230302112716450](C:\Users\34912\Desktop\gitee-study\git-demo\imgs\image-20230302112716450.png)
+
+
+
+```
+下方;
+	黄色的书签当前IDEA的位置
+	绿色的书签表示当前分支
+	紫色的书签表示当前路径
+```
+
+![image-20230302112820308](C:\Users\34912\Desktop\gitee-study\git-demo\imgs\image-20230302112820308.png)
+
+> 如何切换版本
+
+![image-20230302113048486](C:\Users\34912\Desktop\gitee-study\git-demo\imgs\image-20230302113048486.png)
+
+
+
+#### 创建分支&切换分支
+
+​	![image-20230302114553129](C:\Users\34912\Desktop\gitee-study\git-demo\imgs\image-20230302114553129.png)
+
+或者： 二选其一
+
+![image-20230302114811960](C:\Users\34912\Desktop\gitee-study\git-demo\imgs\image-20230302114811960.png)
+
+
+
+
+
+切换分支
+
+![image-20230302115131600](C:\Users\34912\Desktop\gitee-study\git-demo\imgs\image-20230302115131600.png)
+
+
+
+#### 合并分支
+
+##### 正常合并
+
+
+
+> 在当前master分支下合并hot-fix分支
+
+![image-20230302115853672](C:\Users\34912\Desktop\gitee-study\git-demo\imgs\image-20230302115853672.png) 
+
+
+
+##### 冲突合并
+
+
+
+
+
+
+
