@@ -917,7 +917,46 @@ target
 
 
 
+> 正常合并的步骤出现的合并冲突
+
+![image-20230303161036951](C:\Users\34912\Desktop\gitee-study\git-demo\imgs\image-20230303161036951.png)
 
 
 
 
+
+#### IDEA登录GitHub
+
+> 第一种正常登录使用账号和密码登录
+
+![image-20230303202517749](C:\Users\34912\Desktop\gitee-study\git-demo\imgs\image-20230303202517749.png)
+
+
+
+> 第二种使用token来登录
+
+![image-20230303202502755](C:\Users\34912\Desktop\gitee-study\git-demo\imgs\image-20230303202502755.png)
+
+
+
+如何获取token
+
+![image-20230303202832916](C:\Users\34912\Desktop\gitee-study\git-demo\imgs\image-20230303202832916.png)
+
+
+
+#### IDEA分享项目到GitHub
+
+![image-20230303204024047](C:\Users\34912\Desktop\gitee-study\git-demo\imgs\image-20230303204024047.png)
+
+
+
+
+
+![image-20230303204104976](C:\Users\34912\Desktop\gitee-study\git-demo\imgs\image-20230303204104976.png)
+
+
+
+##### 自定义远程链接
+
+![image-20230303205022871](C:\Users\34912\Desktop\gitee-study\git-demo\imgs\image-20230303205022871.png)
