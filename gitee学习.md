@@ -1,4 +1,4 @@
-## 0Git
+## Git
 
 是一个免费的开源的分布式版本控制系统，
 
@@ -91,6 +91,12 @@ Gitee 码云（国内网站）
 ### 2.1 git基本语法
 
 #### **git init**
+
+```
+初始化本地库 第一次想使用git来管理就需要init
+```
+
+
 
 ```
 
@@ -620,6 +626,12 @@ To https://github.com/157866/git-demo.git
 
 ####  git pull 别名 分支
 
+注意：
+
+​		push是将本地库的代码提交到远程库，如果本地库的代码和远程库的代码不一致，push操作会被拒绝的，也就是说要想push成功，必须保证本地库的代码比远程库的代码要高！因此一个成熟的程序员在修改本地的代码之前，一定会查看本地库和远程库的区别，**如果代码很落后了记着一定要先pull在修改在提交在推送！**
+
+
+
 > 从服务器拉去代码更新到本地库
 >
 > git pull git-demo master
@@ -960,3 +972,66 @@ target
 ##### 自定义远程链接
 
 ![image-20230303205022871](C:\Users\34912\Desktop\gitee-study\git-demo\imgs\image-20230303205022871.png)
+
+
+
+
+
+#### pull拉取远程库到本地库
+
+​	右键点击项目，可以将远程库的内容pull到本地仓库。
+
+​	**快捷键 CTRL+T**
+
+
+
+
+
+#### clone到本地
+
+从远程仓库clone到本地
+
+![image-20230304104111670](C:\Users\34912\Desktop\gitee-study\git-demo\imgs\image-20230304104111670.png)
+
+
+
+### 国内代码托管中心码云
+
+
+
+#### 码云账号注册与登录
+
+[登录 - Gitee.com](https://gitee.com/login)
+
+
+
+#### IDEA集成Gitee
+
+![image-20230304151146240](C:\Users\34912\Desktop\gitee-study\git-demo\imgs\image-20230304151146240.png)
+
+
+
+登录Gitee
+
+​	账号是邮箱
+
+![image-20230304152130538](C:\Users\34912\Desktop\gitee-study\git-demo\imgs\image-20230304152130538.png)
+
+
+
+其余操作跟GitHub一样
+
+
+
+### 码云复制GitHub
+
+![image-20230304153800071](C:\Users\34912\Desktop\gitee-study\git-demo\imgs\image-20230304153800071.png)
+
+
+
+
+
+### GitLab
+
+
+
